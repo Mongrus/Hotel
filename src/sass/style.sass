@@ -1,0 +1,864 @@
+
+// Шрифты
+@font-face 
+    
+    font-family: "InterB"
+    src: url('../fonts/Inter-Bold.ttf')
+    font-display: swap
+    font-weight: bold
+@font-face 
+    
+    font-family: "OswaldM"
+    src: url('../fonts/Oswald-Medium.ttf')
+    font-display: swap
+    font-weight: Medium
+    font-style: normal   
+@font-face 
+    
+    font-family: "OswaldR"
+    src: url('../fonts/Oswald-Regular.ttf')
+    font-display: swap
+    font-weight: Regular
+    font-style: normal   
+@font-face 
+    
+    font-family: "LobsterR"
+    src: url('../fonts/Lobster-Regular.ttf')
+    font-display: swap
+    font-weight: Regular
+    font-style: normal   
+@font-face 
+    
+    font-family: "OswaldB"
+    src: url('../fonts/Oswald-Bold.ttf')
+    font-display: swap
+    font-weight: Bold
+    font-style: normal   
+@font-face 
+    
+    font-family: "LobsterR"
+    src: url('../fonts/Lobster-Regular.ttf')
+    font-display: swap
+    font-weight: Regular
+    font-style: normal   
+
+// Цвета 
+$color-red: #772C2C
+$color-white: #DFDAB1
+$color-backgraund: #F9ECEC
+
+// Первая секция сайта
+.container-one
+    padding-top: 20px
+    position: relative
+
+.section-one
+    background-color: $color-backgraund
+    height: 668px
+    a
+        text-decoration: none
+        color: white
+        display: block
+
+.layer-one
+    position: relative
+    display: flex
+    justify-content: space-around
+    font-family: "InterB"
+    font-weight: bold
+    font-size: 16px
+    padding-top: 8px
+    &__rectangle-one
+        width: 220px
+        height: 214px
+        background-color: $color-red
+        border-radius: 30px
+        text-align: center
+    &__rectangle-two
+        display: flex
+        justify-content: space-evenly
+        width: 694.64px
+        height: 514.42px
+        background-color: $color-red
+        border-radius: 45px
+    &__rectangle-three
+        position: absolute
+        bottom: -113px
+        left: 95px
+        width: 432.31px
+        height: 244.81px
+        background-color: $color-white
+        border-radius: 30px
+
+.layer-two
+    position: absolute
+    top: 11%
+    left: 10.3%
+    width: 1050px
+    height: 560px
+    background: url(../img/1.jpg)
+    background-size: 1050px
+    border-radius: 15px
+
+.layer-three
+    position: relative
+    p
+        color: black
+        display: block
+        position: absolute
+        top: 15px
+        left: 70px
+    &__button-one
+        position: absolute
+        top: -280px
+        left: 90px
+        width: 150px
+        height: 60px
+        background-color: white
+        border-radius: 15px
+        box-shadow: inset 0px 0px 0px 5px $color-red
+        font-family: "OswaldM"
+        font-size: 18px
+        img
+            width: 48px
+            height: 48px
+            position: absolute
+            top: 5px
+            left: 33px
+    &__button-two
+        position: absolute
+        top: -210px
+        left: 90px
+        width: 150px
+        height: 60px
+        background-color: white
+        border-radius: 15px
+        box-shadow: inset 0px 0px 0px 5px $color-red
+        font-family: "OswaldM"
+        font-size: 18px
+        img
+            width: 48px
+            height: 48px
+            position: absolute
+            top: 5px
+            left: 22px
+    &__information
+        position: absolute
+        top: -360px
+        right: 60px
+        width: 210px
+        height: 270px
+        background: rgba(114, 69, 55, 0.9);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px
+        padding-top: 20px
+        h5
+            text-align: center
+            color: white
+    &__title
+        position: absolute
+        bottom: -130px
+        left: 335px
+        width: 615px
+        height: 105px
+        background: $color-red
+        box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.25)
+        border-radius: 15px
+        text-align: center
+        padding-top: 25px
+        color: white
+        h1
+            font-family: "OswaldR"
+            font-size: 46px
+
+// Вторая секция сайта    
+.section-two
+    height: 650px
+    position: relative
+    &__roof
+        padding-top: 50px
+        text-align: center
+        margin-bottom: 50px
+        img
+            width: 90%
+    &__title
+        position: absolute
+        top: 18%
+        left: 30%
+        text-align: center
+        color: $color-red
+        h1
+            font-family: "LobsterR"
+            font-size: 4rem
+    &__cards
+        display: flex
+        justify-content: space-evenly
+        padding-top: 30px
+        h3
+            margin-top: 10px
+
+.container-two
+    position: relative
+
+.body-cards
+    width: 370px
+    height: 370px
+    background-color: $color-white
+    border-radius: 15px
+    text-align: center
+    padding-top: 20px
+    img
+        width: 200px
+    h3
+        font-family: "OswaldB"
+        font-size: 32px
+    p
+        font-family: "InterB"
+        font-size: 22px
+        padding-left: 13px
+        padding-right: 13px
+
+// Третья секция сайта
+
+.section-three
+    height: 720px
+    background-color: $color-backgraund
+    &__left-part
+        position: relative
+        width: 600px
+        height: 540px
+        background: #443934
+        background-blend-mode: darken
+        border-radius: 30px 0px 0px 30px
+        margin-top: 85px
+        margin-right: 40px
+        text-align: center
+        font-family: "OswaldB"
+        padding: 20px
+        color: white
+        h1
+            font-size: 32px
+        h2
+            font-size: 28px
+        h3
+            font-size: 20px
+    &__right-part
+        position: relative
+        width: 440px
+        height: 600px
+        background: $color-red
+        border-radius: 40px
+        margin-top: 40px
+        img          
+
+.container-three
+    display: flex
+    justify-content: center
+
+.carousel-place
+    position: absolute
+    top: 20px
+    left: -20px
+    width: 440px
+    height: 600px
+    img
+        border-radius: 40px
+
+.exclamation
+    position: absolute
+    top: 15px
+    left: 20px
+    img
+        width: 70px
+        height: 70px
+
+.hatch
+    position: absolute
+    bottom: -25px
+    left: 25px
+    img
+        width: 540Spx
+        height: 20px
+
+// Четвёртая секция сайта
+.section-four
+    position: relative
+    height: 650px
+    text-align: center
+    a
+        text-decoration: none
+        color: black
+        display: block
+    &__level-one
+        img
+            width: 100px
+    &__airplane
+        position: absolute
+        top: 5%
+        left: 20%
+    &__bus
+        position: absolute
+        top: 15%
+        left: 45% 
+    &__hotel
+        position: absolute
+        top: 5%
+        right: 20%
+    &__title
+        position: absolute
+        top: 5%
+        right: 36%
+        font-family: "LobsterR"
+        font-size: 50px
+    &__level-two
+        display: flex
+        width: 300px
+        flex-wrap: wrap
+        justify-content: space-between
+        padding-top: 170px
+    &__button-one
+        position: relative
+        width: 130px
+        height: 50px
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 15px
+        font-family: "OswaldM"
+        font-size: 18px
+        img
+            width: 45px
+            height: 45px
+            position: absolute
+            top: 2px
+            left: 15px
+        p
+            margin-top: 8px
+            margin-left: 15px
+    &__button-two
+        position: relative
+        width: 130px
+        height: 50px
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 15px
+        font-family: "OswaldM"
+        font-size: 18px
+        img
+            width: 45px
+            height: 45px
+            position: absolute
+            top: 2px
+            left: 20px
+        p
+            margin-top: 8px
+            margin-left: 40px
+    &__text
+        width: 300px
+        height: 330px
+        box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.25)
+        border-radius: 30px
+        margin-top: 20px
+        font-family: "OswaldR"
+        font-size: 25px
+        padding: 10px
+    &__level-three
+        padding-top: 170px
+        margin-left: 10px
+    
+.map
+    box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.15)
+
+.container-four
+    position: relative
+    display: flex
+    justify-content: center
+
+// Подвал
+.footer
+    height: 400px
+    background-color: $color-red
+
+.level-one
+    display: flex
+    font-family: "OswaldR"
+    color: white
+    justify-content: space-evenly
+    text-align: center
+    h1
+        font-size: 30px
+        padding-bottom: 20px
+    p
+        font-size: 20px
+    padding-top: 50px
+    &__contacts
+        width: 200px
+    &__mode
+        width: 200px
+    &__address
+        width: 200px
+
+.level-two
+    position: relative
+    &__window-one
+        top: -110px
+        left: 70px
+    &__window-two
+        top: -110px
+        left: 415px
+    &__window-three
+        top: -110px
+        right: 415px
+    &__window-four
+        top: -110px
+        right: 70px
+    &__flowerbed
+        bottom: -120px
+        left: 490px
+        position: absolute
+        img
+            width: 80px
+            height: 80px
+    &__door
+        bottom: -120px
+        left: 597px
+    &__pot
+        bottom: -100px
+        right: 520px
+        position: absolute
+        img
+            width: 60px
+            height: 60px
+    &_images
+        position: absolute
+        img
+            width: 100px
+            height: 100px
+
+// Адаптивная вёрстка   
+
+@media (max-width:1399px)
+    .container
+        width: 1140px
+    .layer-one__rectangle-three
+        left: 50px
+    .layer-two
+        width: 960px
+        left: 8%
+    .section-four__title
+        right: 33%
+    .layer-three__title
+        left: 250px
+    .level-two
+        &__window-one
+            top: -110px
+            left: 50px
+        &__window-two
+            top: -110px
+            left: 355px
+        &__window-three
+            top: -110px
+            right: 355px
+        &__window-four
+            top: -110px
+            right: 50px
+        &__flowerbed
+            bottom: -120px
+            left: 410px
+            position: absolute
+            img
+                width: 80px
+                height: 80px
+        &__door
+            bottom: -120px
+            left: 508px
+        &__pot
+            bottom: -100px
+            right: 440px
+            position: absolute
+            img
+                width: 60px
+                height: 60px
+
+
+@media (max-width:1199px)
+    .container
+        width: 960px
+    .layer-one__rectangle-three
+        left: 5px
+    .layer-two
+        width: 870px
+        background-size: 870px
+        left: 5%
+    .layer-three
+        &__title
+            left: 170px
+        &__button-one
+            left: 10px
+        &__button-two
+            left: 10px
+        &__information
+            right: -10px
+    .section-two__title
+        left: 25%
+    .body-cards
+        width: 300px
+        height: 380px
+    .carousel-place
+        width: 430px
+        top: 20px
+    .section-three
+        &__right-part
+            width: 540px
+            height: 570px
+        &__left-part
+            height: 580px
+            margin-top: 50px
+    .exclamation
+        top: 5px
+        left: 5px
+        img
+            width: 50px
+            height: 50px
+    .hatch 
+        img
+            width: 480px
+    .section-four
+        &__level-three
+            overflow: hidden
+        &__airplane
+            left: 10%
+        &__bus
+            left: 45% 
+        &__hotel
+            right: 10%
+        &__title
+            top: 5%
+            right: 31%
+    .level-two
+        &__window-one
+            top: -110px
+            left: 5px
+        &__window-two
+            top: -110px
+            left: 280px
+        &__window-three
+            top: -110px
+            right: 280px
+        &__window-four
+            top: -110px
+            right: 5px
+        &__flowerbed
+            bottom: -120px
+            left: 320px
+            position: absolute
+            img
+                width: 80px
+                height: 80px
+        &__door
+            bottom: -120px
+            left: 417px
+        &__pot
+            bottom: -100px
+            right: 360px
+            position: absolute
+            img
+                width: 60px
+                height: 60px   
+
+@media (max-width:991px)
+    .container
+        width: 720px
+    .layer-two
+        width: 650px
+        background-size: 750px
+    .layer-three__title
+        left: 50px
+    .section-two
+        height: 570px
+        &__title
+            left: 14%
+    .body-cards 
+        width: 200px
+        height: 330px
+        p
+            font-size: 18px
+        img
+            width: 130px
+    .carousel-place
+        width: 360px
+        left: -30px
+        top: 45px
+    .section-three
+        &__right-part
+            width: 550px
+        &__left-part
+            height: 520px
+            margin-top: 65px
+            padding: 20px
+            h1
+                font-size: 26px
+            h2
+                font-size: 20px
+            h3
+                font-size: 16px
+    .exclamation
+        top: 56px
+        left: 65px 
+        img
+            width: 30px
+            height: 30px
+    .hatch 
+        img
+            width: 380px
+    .section-four__title
+       right: 27%
+    .level-one
+        justify-content: center
+    .level-two
+        &__window-one
+            top: -90px
+            left: -5px
+        &__window-two
+            top: -90px
+            left: 307px
+        &__window-three
+            display: none
+        &__window-four
+            top: -90px
+            right: -5px
+        &__flowerbed
+            bottom: -120px
+            left: 210px
+            position: absolute
+            img
+                width: 80px
+                height: 80px
+        &__door
+            bottom: -120px
+            left: 307px
+        &__pot
+            bottom: -100px
+            right: 240px
+            position: absolute
+            img
+                width: 60px
+                height: 60px
+        &_images
+            img
+                width: 80px
+                height: 80px
+
+
+@media (max-width:767px)
+    .container
+        width: 540px
+    .section-one
+        height: 530px
+    .layer-one
+        &__rectangle-one
+            height: 150px
+        &__rectangle-two
+            height: 450px
+        &__rectangle-three
+            bottom: 35px
+            left: -3px
+    .layer-two
+        width: 480px
+        height: 360px
+        background-size: 480px
+    .layer-three
+        &__title
+            width: 420px
+            height: 60px
+            bottom: 25px
+            padding-top: 10px
+            h1
+                font-size: 30px
+    .section-two
+        height: 480px
+        &__title 
+        h1
+            font-size: 3rem
+        &__cards
+            justify-content: space-between
+    .body-cards
+        width: 160px
+        height: 270px
+        padding-top: 10px
+        img
+            width: 80px
+        h3
+            font-size: 26px
+        p
+            font-size: 16px
+    .container-three
+        flex-direction: column-reverse
+        align-items: center
+    .section-three
+        height: 900px
+        &__right-part
+            width: 
+            height: 480px
+            background-color: $color-backgraund
+            margin-top: 0px
+        &__left-part
+            height: 320px
+            width: 95%
+            margin-right: 0px
+            border-radius: 30px
+            h1
+                font-size: 16px
+            h2
+                font-size: 14px
+            h3
+                font-size: 12px
+    .exclamation
+        top: 7px
+        left: 10px
+        img
+            width: 50px
+            height: 50px
+    .carousel-place
+        left: 95px
+    .section-four
+        height: 600px
+        &__level-three
+            display: none
+        &__airplane
+            left: 0%
+        &__bus
+            left: 40% 
+        &__hotel
+            right: 0%
+        &__title
+            top: 8%
+            right: 23%
+    .footer
+        height: 343px
+    .level-one
+        h1
+            font-size: 24px
+        p
+            font-size: 16px
+            margin-bottom: 70px
+    .level-two
+        &__window-one
+            display: none
+        &__window-two
+            display: none
+        &__window-four
+            display: none
+        &__flowerbed
+            bottom: -70px
+            left: 150px
+            position: absolute
+            img
+                width: 60px
+                height: 60px
+        &__door
+            bottom: -70px
+            left: 218px
+        &__pot
+            bottom: -60px
+            right: 160px
+            position: absolute
+            img
+                width: 60px
+                height: 60px
+        &_images
+            img
+                width: 80px
+                height: 80px
+    .none-map
+        display: none !important
+        
+@media (max-width:575px)
+    .container
+        width: 100%
+    .layer-one
+        font-size: 12px
+        a
+            padding-top: 3px
+        &__rectangle-three
+            width: 100px
+    .layer-two
+        width: 335px
+        font-size: 400px
+    .layer-three
+        &__title
+            width: 325px
+            left: 15px
+        &__button-one
+            top: -25px
+        &__button-two
+            top: -25px
+            left: 190px
+        &__information
+            width: 190px
+            height: 210px
+            padding-top: 0px
+            top: -290px
+            h5
+                font-size: 1rem
+                padding: 20px
+    .section-two 
+        height: 940px
+        h1
+            font-size: 2rem
+        &__title
+            top: 5%
+        &__roof
+            padding-top: 20px
+        &__cards
+            padding-top: 10px
+            flex-direction: column
+            align-items: center
+    .body-cards
+        width: 250px
+        height: 250px
+        margin-top: 20px
+        img
+            width: 100px
+    .hatch 
+        img   
+            width: 305px 
+    .section-four
+        height: 600px
+        &__airplane
+            left: 0%
+        &__bus
+            top: 5%
+            left: 37% 
+        &__hotel
+            right: 0%
+        &__title
+            top: 23%
+            right: 15%
+    .footer
+        height: 520px
+    .level-one
+        h1
+            font-size: 20px
+        p
+            font-size: 14px
+            margin-bottom: 70px
+    .level-two
+        &__flowerbed
+            bottom: -70px
+            left: 70px
+            position: absolute
+            img
+                width: 60px
+                height: 60px
+        &__door
+            bottom: -70px
+            left: 140px
+        &__pot
+            bottom: -60px
+            right: 75px
+            position: absolute
+            img
+                width: 60px
+                height: 60px
+        &_images
+            img
+                width: 80px
+                height: 80px    

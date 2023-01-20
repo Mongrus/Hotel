@@ -1,0 +1,1353 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "InterB";
+  src: url("../fonts/Inter-Bold.ttf");
+  font-display: swap;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "OswaldM";
+  src: url("../fonts/Oswald-Medium.ttf");
+  font-display: swap;
+  font-weight: Medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OswaldR";
+  src: url("../fonts/Oswald-Regular.ttf");
+  font-display: swap;
+  font-weight: Regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LobsterR";
+  src: url("../fonts/Lobster-Regular.ttf");
+  font-display: swap;
+  font-weight: Regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OswaldB";
+  src: url("../fonts/Oswald-Bold.ttf");
+  font-display: swap;
+  font-weight: Bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LobsterR";
+  src: url("../fonts/Lobster-Regular.ttf");
+  font-display: swap;
+  font-weight: Regular;
+  font-style: normal;
+}
+
+/* line 51, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.container-one {
+  padding-top: 20px;
+  position: relative;
+}
+
+/* line 55, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-one {
+  background-color: #F9ECEC;
+  height: 668px;
+}
+
+/* line 58, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-one a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+/* line 63, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-one {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  font-family: "InterB";
+  font-weight: bold;
+  font-size: 16px;
+  padding-top: 8px;
+}
+
+/* line 71, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-one__rectangle-one {
+  width: 220px;
+  height: 214px;
+  background-color: #772C2C;
+  border-radius: 30px;
+  text-align: center;
+}
+
+/* line 77, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-one__rectangle-two {
+  display: flex;
+  justify-content: space-evenly;
+  width: 694.64px;
+  height: 514.42px;
+  background-color: #772C2C;
+  border-radius: 45px;
+}
+
+/* line 84, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-one__rectangle-three {
+  position: absolute;
+  bottom: -113px;
+  left: 95px;
+  width: 432.31px;
+  height: 244.81px;
+  background-color: #DFDAB1;
+  border-radius: 30px;
+}
+
+/* line 93, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-two {
+  position: absolute;
+  top: 11%;
+  left: 10.3%;
+  width: 1050px;
+  height: 560px;
+  background: url(../img/1.jpg);
+  background-size: 1050px;
+  border-radius: 15px;
+}
+
+/* line 103, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-three {
+  position: relative;
+}
+
+/* line 105, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-three p {
+  color: black;
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 70px;
+}
+
+/* line 111, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-three__button-one {
+  position: absolute;
+  top: -280px;
+  left: 90px;
+  width: 150px;
+  height: 60px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: inset 0px 0px 0px 5px #772C2C;
+  font-family: "OswaldM";
+  font-size: 18px;
+}
+
+/* line 122, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-three__button-one img {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 5px;
+  left: 33px;
+}
+
+/* line 128, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-three__button-two {
+  position: absolute;
+  top: -210px;
+  left: 90px;
+  width: 150px;
+  height: 60px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: inset 0px 0px 0px 5px #772C2C;
+  font-family: "OswaldM";
+  font-size: 18px;
+}
+
+/* line 139, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-three__button-two img {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 5px;
+  left: 22px;
+}
+
+/* line 145, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-three__information {
+  position: absolute;
+  top: -360px;
+  right: 60px;
+  width: 210px;
+  height: 270px;
+  background: rgba(114, 69, 55, 0.9);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding-top: 20px;
+}
+
+/* line 155, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-three__information h5 {
+  text-align: center;
+  color: white;
+}
+
+/* line 158, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-three__title {
+  position: absolute;
+  bottom: -130px;
+  left: 335px;
+  width: 615px;
+  height: 105px;
+  background: #772C2C;
+  box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+}
+
+/* line 170, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.layer-three__title h1 {
+  font-family: "OswaldR";
+  font-size: 46px;
+}
+
+/* line 175, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-two {
+  height: 650px;
+  position: relative;
+}
+
+/* line 178, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-two__roof {
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* line 182, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-two__roof img {
+  width: 90%;
+}
+
+/* line 184, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-two__title {
+  position: absolute;
+  top: 18%;
+  left: 30%;
+  text-align: center;
+  color: #772C2C;
+}
+
+/* line 190, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-two__title h1 {
+  font-family: "LobsterR";
+  font-size: 4rem;
+}
+
+/* line 193, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-two__cards {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+
+/* line 197, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-two__cards h3 {
+  margin-top: 10px;
+}
+
+/* line 200, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.container-two {
+  position: relative;
+}
+
+/* line 203, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.body-cards {
+  width: 370px;
+  height: 370px;
+  background-color: #DFDAB1;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* line 210, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.body-cards img {
+  width: 200px;
+}
+
+/* line 212, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.body-cards h3 {
+  font-family: "OswaldB";
+  font-size: 32px;
+}
+
+/* line 215, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.body-cards p {
+  font-family: "InterB";
+  font-size: 22px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+/* line 223, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-three {
+  height: 720px;
+  background-color: #F9ECEC;
+}
+
+/* line 226, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-three__left-part {
+  position: relative;
+  width: 600px;
+  height: 540px;
+  background: #443934;
+  background-blend-mode: darken;
+  border-radius: 30px 0px 0px 30px;
+  margin-top: 85px;
+  margin-right: 40px;
+  text-align: center;
+  font-family: "OswaldB";
+  padding: 20px;
+  color: white;
+}
+
+/* line 239, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-three__left-part h1 {
+  font-size: 32px;
+}
+
+/* line 241, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-three__left-part h2 {
+  font-size: 28px;
+}
+
+/* line 243, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-three__left-part h3 {
+  font-size: 20px;
+}
+
+/* line 245, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-three__right-part {
+  position: relative;
+  width: 440px;
+  height: 600px;
+  background: #772C2C;
+  border-radius: 40px;
+  margin-top: 40px;
+}
+
+/* line 254, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.container-three {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 258, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.carousel-place {
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  width: 440px;
+  height: 600px;
+}
+
+/* line 264, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.carousel-place img {
+  border-radius: 40px;
+}
+
+/* line 267, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.exclamation {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+/* line 271, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.exclamation img {
+  width: 70px;
+  height: 70px;
+}
+
+/* line 275, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.hatch {
+  position: absolute;
+  bottom: -25px;
+  left: 25px;
+}
+
+/* line 279, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.hatch img {
+  width: 540Spx;
+  height: 20px;
+}
+
+/* line 284, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four {
+  position: relative;
+  height: 650px;
+  text-align: center;
+}
+
+/* line 288, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+/* line 293, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__level-one img {
+  width: 100px;
+}
+
+/* line 295, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__airplane {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+}
+
+/* line 299, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__bus {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+}
+
+/* line 303, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__hotel {
+  position: absolute;
+  top: 5%;
+  right: 20%;
+}
+
+/* line 307, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__title {
+  position: absolute;
+  top: 5%;
+  right: 36%;
+  font-family: "LobsterR";
+  font-size: 50px;
+}
+
+/* line 313, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__level-two {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 170px;
+}
+
+/* line 319, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__button-one {
+  position: relative;
+  width: 130px;
+  height: 50px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-family: "OswaldM";
+  font-size: 18px;
+}
+
+/* line 327, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__button-one img {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 2px;
+  left: 15px;
+}
+
+/* line 333, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__button-one p {
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+/* line 336, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__button-two {
+  position: relative;
+  width: 130px;
+  height: 50px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-family: "OswaldM";
+  font-size: 18px;
+}
+
+/* line 344, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__button-two img {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 2px;
+  left: 20px;
+}
+
+/* line 350, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__button-two p {
+  margin-top: 8px;
+  margin-left: 40px;
+}
+
+/* line 353, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__text {
+  width: 300px;
+  height: 330px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin-top: 20px;
+  font-family: "OswaldR";
+  font-size: 25px;
+  padding: 10px;
+}
+
+/* line 362, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.section-four__level-three {
+  padding-top: 170px;
+  margin-left: 10px;
+}
+
+/* line 366, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.map {
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* line 369, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.container-four {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 375, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.footer {
+  height: 400px;
+  background-color: #772C2C;
+}
+
+/* line 379, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-one {
+  display: flex;
+  font-family: "OswaldR";
+  color: white;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* line 385, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-one h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+/* line 388, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-one p {
+  font-size: 20px;
+}
+
+/* line 391, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-one__contacts {
+  width: 200px;
+}
+
+/* line 393, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-one__mode {
+  width: 200px;
+}
+
+/* line 395, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-one__address {
+  width: 200px;
+}
+
+/* line 398, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-two {
+  position: relative;
+}
+
+/* line 400, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-two__window-one {
+  top: -110px;
+  left: 70px;
+}
+
+/* line 403, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-two__window-two {
+  top: -110px;
+  left: 415px;
+}
+
+/* line 406, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-two__window-three {
+  top: -110px;
+  right: 415px;
+}
+
+/* line 409, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-two__window-four {
+  top: -110px;
+  right: 70px;
+}
+
+/* line 412, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-two__flowerbed {
+  bottom: -120px;
+  left: 490px;
+  position: absolute;
+}
+
+/* line 416, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-two__flowerbed img {
+  width: 80px;
+  height: 80px;
+}
+
+/* line 419, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-two__door {
+  bottom: -120px;
+  left: 597px;
+}
+
+/* line 422, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-two__pot {
+  bottom: -100px;
+  right: 520px;
+  position: absolute;
+}
+
+/* line 426, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-two__pot img {
+  width: 60px;
+  height: 60px;
+}
+
+/* line 429, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-two_images {
+  position: absolute;
+}
+
+/* line 431, ../Сайт гостиница (готовый)/src/sass/style.sass */
+.level-two_images img {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 1399px) {
+  /* line 438, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .container {
+    width: 1140px;
+  }
+  /* line 440, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-one__rectangle-three {
+    left: 50px;
+  }
+  /* line 442, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-two {
+    width: 960px;
+    left: 8%;
+  }
+  /* line 445, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__title {
+    right: 33%;
+  }
+  /* line 447, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__title {
+    left: 250px;
+  }
+  /* line 450, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-one {
+    top: -110px;
+    left: 50px;
+  }
+  /* line 453, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-two {
+    top: -110px;
+    left: 355px;
+  }
+  /* line 456, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-three {
+    top: -110px;
+    right: 355px;
+  }
+  /* line 459, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-four {
+    top: -110px;
+    right: 50px;
+  }
+  /* line 462, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__flowerbed {
+    bottom: -120px;
+    left: 410px;
+    position: absolute;
+  }
+  /* line 466, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__flowerbed img {
+    width: 80px;
+    height: 80px;
+  }
+  /* line 469, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__door {
+    bottom: -120px;
+    left: 508px;
+  }
+  /* line 472, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__pot {
+    bottom: -100px;
+    right: 440px;
+    position: absolute;
+  }
+  /* line 476, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__pot img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* line 482, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .container {
+    width: 960px;
+  }
+  /* line 484, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-one__rectangle-three {
+    left: 5px;
+  }
+  /* line 486, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-two {
+    width: 870px;
+    background-size: 870px;
+    left: 5%;
+  }
+  /* line 491, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__title {
+    left: 170px;
+  }
+  /* line 493, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__button-one {
+    left: 10px;
+  }
+  /* line 495, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__button-two {
+    left: 10px;
+  }
+  /* line 497, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__information {
+    right: -10px;
+  }
+  /* line 499, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-two__title {
+    left: 25%;
+  }
+  /* line 501, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .body-cards {
+    width: 300px;
+    height: 380px;
+  }
+  /* line 504, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .carousel-place {
+    width: 430px;
+    top: 20px;
+  }
+  /* line 508, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three__right-part {
+    width: 540px;
+    height: 570px;
+  }
+  /* line 511, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three__left-part {
+    height: 580px;
+    margin-top: 50px;
+  }
+  /* line 514, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .exclamation {
+    top: 5px;
+    left: 5px;
+  }
+  /* line 517, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .exclamation img {
+    width: 50px;
+    height: 50px;
+  }
+  /* line 521, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .hatch img {
+    width: 480px;
+  }
+  /* line 524, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__level-three {
+    overflow: hidden;
+  }
+  /* line 526, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__airplane {
+    left: 10%;
+  }
+  /* line 528, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__bus {
+    left: 45%;
+  }
+  /* line 530, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__hotel {
+    right: 10%;
+  }
+  /* line 532, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__title {
+    top: 5%;
+    right: 31%;
+  }
+  /* line 536, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-one {
+    top: -110px;
+    left: 5px;
+  }
+  /* line 539, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-two {
+    top: -110px;
+    left: 280px;
+  }
+  /* line 542, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-three {
+    top: -110px;
+    right: 280px;
+  }
+  /* line 545, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-four {
+    top: -110px;
+    right: 5px;
+  }
+  /* line 548, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__flowerbed {
+    bottom: -120px;
+    left: 320px;
+    position: absolute;
+  }
+  /* line 552, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__flowerbed img {
+    width: 80px;
+    height: 80px;
+  }
+  /* line 555, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__door {
+    bottom: -120px;
+    left: 417px;
+  }
+  /* line 558, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__pot {
+    bottom: -100px;
+    right: 360px;
+    position: absolute;
+  }
+  /* line 562, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__pot img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 567, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .container {
+    width: 720px;
+  }
+  /* line 569, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-two {
+    width: 650px;
+    background-size: 750px;
+  }
+  /* line 572, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__title {
+    left: 50px;
+  }
+  /* line 574, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-two {
+    height: 570px;
+  }
+  /* line 576, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-two__title {
+    left: 14%;
+  }
+  /* line 578, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .body-cards {
+    width: 200px;
+    height: 330px;
+  }
+  /* line 581, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .body-cards p {
+    font-size: 18px;
+  }
+  /* line 583, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .body-cards img {
+    width: 130px;
+  }
+  /* line 585, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .carousel-place {
+    width: 360px;
+    left: -30px;
+    top: 45px;
+  }
+  /* line 590, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three__right-part {
+    width: 550px;
+  }
+  /* line 592, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three__left-part {
+    height: 520px;
+    margin-top: 65px;
+    padding: 20px;
+  }
+  /* line 596, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three__left-part h1 {
+    font-size: 26px;
+  }
+  /* line 598, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three__left-part h2 {
+    font-size: 20px;
+  }
+  /* line 600, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three__left-part h3 {
+    font-size: 16px;
+  }
+  /* line 602, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .exclamation {
+    top: 56px;
+    left: 65px;
+  }
+  /* line 605, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .exclamation img {
+    width: 30px;
+    height: 30px;
+  }
+  /* line 609, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .hatch img {
+    width: 380px;
+  }
+  /* line 611, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__title {
+    right: 27%;
+  }
+  /* line 613, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-one {
+    justify-content: center;
+  }
+  /* line 616, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-one {
+    top: -90px;
+    left: -5px;
+  }
+  /* line 619, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-two {
+    top: -90px;
+    left: 307px;
+  }
+  /* line 622, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-three {
+    display: none;
+  }
+  /* line 624, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-four {
+    top: -90px;
+    right: -5px;
+  }
+  /* line 627, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__flowerbed {
+    bottom: -120px;
+    left: 210px;
+    position: absolute;
+  }
+  /* line 631, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__flowerbed img {
+    width: 80px;
+    height: 80px;
+  }
+  /* line 634, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__door {
+    bottom: -120px;
+    left: 307px;
+  }
+  /* line 637, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__pot {
+    bottom: -100px;
+    right: 240px;
+    position: absolute;
+  }
+  /* line 641, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__pot img {
+    width: 60px;
+    height: 60px;
+  }
+  /* line 645, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two_images img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 651, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .container {
+    width: 540px;
+  }
+  /* line 653, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-one {
+    height: 530px;
+  }
+  /* line 656, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-one__rectangle-one {
+    height: 150px;
+  }
+  /* line 658, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-one__rectangle-two {
+    height: 450px;
+  }
+  /* line 660, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-one__rectangle-three {
+    bottom: 35px;
+    left: -3px;
+  }
+  /* line 663, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-two {
+    width: 480px;
+    height: 360px;
+    background-size: 480px;
+  }
+  /* line 668, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__title {
+    width: 420px;
+    height: 60px;
+    bottom: 25px;
+    padding-top: 10px;
+  }
+  /* line 673, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__title h1 {
+    font-size: 30px;
+  }
+  /* line 675, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-two {
+    height: 480px;
+  }
+  /* line 678, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-two h1 {
+    font-size: 3rem;
+  }
+  /* line 680, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-two__cards {
+    justify-content: space-between;
+  }
+  /* line 682, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .body-cards {
+    width: 160px;
+    height: 270px;
+    padding-top: 10px;
+  }
+  /* line 686, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .body-cards img {
+    width: 80px;
+  }
+  /* line 688, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .body-cards h3 {
+    font-size: 26px;
+  }
+  /* line 690, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .body-cards p {
+    font-size: 16px;
+  }
+  /* line 692, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .container-three {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  /* line 695, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three {
+    height: 900px;
+  }
+  /* line 697, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three__right-part {
+    height: 480px;
+    background-color: #F9ECEC;
+    margin-top: 0px;
+  }
+  /* line 702, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three__left-part {
+    height: 320px;
+    width: 95%;
+    margin-right: 0px;
+    border-radius: 30px;
+  }
+  /* line 707, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three__left-part h1 {
+    font-size: 16px;
+  }
+  /* line 709, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three__left-part h2 {
+    font-size: 14px;
+  }
+  /* line 711, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-three__left-part h3 {
+    font-size: 12px;
+  }
+  /* line 713, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .exclamation {
+    top: 7px;
+    left: 10px;
+  }
+  /* line 716, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .exclamation img {
+    width: 50px;
+    height: 50px;
+  }
+  /* line 719, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .carousel-place {
+    left: 95px;
+  }
+  /* line 721, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four {
+    height: 600px;
+  }
+  /* line 723, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__level-three {
+    display: none;
+  }
+  /* line 725, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__airplane {
+    left: 0%;
+  }
+  /* line 727, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__bus {
+    left: 40%;
+  }
+  /* line 729, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__hotel {
+    right: 0%;
+  }
+  /* line 731, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__title {
+    top: 8%;
+    right: 23%;
+  }
+  /* line 734, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .footer {
+    height: 343px;
+  }
+  /* line 737, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-one h1 {
+    font-size: 24px;
+  }
+  /* line 739, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-one p {
+    font-size: 16px;
+    margin-bottom: 70px;
+  }
+  /* line 743, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-one {
+    display: none;
+  }
+  /* line 745, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-two {
+    display: none;
+  }
+  /* line 747, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__window-four {
+    display: none;
+  }
+  /* line 749, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__flowerbed {
+    bottom: -70px;
+    left: 150px;
+    position: absolute;
+  }
+  /* line 753, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__flowerbed img {
+    width: 60px;
+    height: 60px;
+  }
+  /* line 756, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__door {
+    bottom: -70px;
+    left: 218px;
+  }
+  /* line 759, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__pot {
+    bottom: -60px;
+    right: 160px;
+    position: absolute;
+  }
+  /* line 763, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__pot img {
+    width: 60px;
+    height: 60px;
+  }
+  /* line 767, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two_images img {
+    width: 80px;
+    height: 80px;
+  }
+  /* line 770, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .none-map {
+    display: none !important;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 774, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .container {
+    width: 100%;
+  }
+  /* line 776, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-one {
+    font-size: 12px;
+  }
+  /* line 778, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-one a {
+    padding-top: 3px;
+  }
+  /* line 780, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-one__rectangle-three {
+    width: 100px;
+  }
+  /* line 782, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-two {
+    width: 335px;
+    font-size: 400px;
+  }
+  /* line 786, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__title {
+    width: 325px;
+    left: 15px;
+  }
+  /* line 789, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__button-one {
+    top: -25px;
+  }
+  /* line 791, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__button-two {
+    top: -25px;
+    left: 190px;
+  }
+  /* line 794, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__information {
+    width: 190px;
+    height: 210px;
+    padding-top: 0px;
+    top: -290px;
+  }
+  /* line 799, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .layer-three__information h5 {
+    font-size: 1rem;
+    padding: 20px;
+  }
+  /* line 802, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-two {
+    height: 940px;
+  }
+  /* line 804, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-two h1 {
+    font-size: 2rem;
+  }
+  /* line 806, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-two__title {
+    top: 5%;
+  }
+  /* line 808, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-two__roof {
+    padding-top: 20px;
+  }
+  /* line 810, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-two__cards {
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 814, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .body-cards {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+  }
+  /* line 818, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .body-cards img {
+    width: 100px;
+  }
+  /* line 821, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .hatch img {
+    width: 305px;
+  }
+  /* line 823, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four {
+    height: 600px;
+  }
+  /* line 825, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__airplane {
+    left: 0%;
+  }
+  /* line 827, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__bus {
+    top: 5%;
+    left: 37%;
+  }
+  /* line 830, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__hotel {
+    right: 0%;
+  }
+  /* line 832, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .section-four__title {
+    top: 23%;
+    right: 15%;
+  }
+  /* line 835, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .footer {
+    height: 520px;
+  }
+  /* line 838, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-one h1 {
+    font-size: 20px;
+  }
+  /* line 840, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-one p {
+    font-size: 14px;
+    margin-bottom: 70px;
+  }
+  /* line 844, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__flowerbed {
+    bottom: -70px;
+    left: 70px;
+    position: absolute;
+  }
+  /* line 848, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__flowerbed img {
+    width: 60px;
+    height: 60px;
+  }
+  /* line 851, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__door {
+    bottom: -70px;
+    left: 140px;
+  }
+  /* line 854, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__pot {
+    bottom: -60px;
+    right: 75px;
+    position: absolute;
+  }
+  /* line 858, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two__pot img {
+    width: 60px;
+    height: 60px;
+  }
+  /* line 862, ../Сайт гостиница (готовый)/src/sass/style.sass */
+  .level-two_images img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
